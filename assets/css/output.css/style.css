@@ -1,0 +1,44 @@
+body {
+  font-family: ‘Modak’, cursive;
+  background-color: rgb(183, 248, 77);
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.container {
+  margin: 0 auto;
+  float: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+}
+h1 {
+  font-size: 50px;
+  color: rgb(216, 132, 22);
+  padding-bottom: 20px;
+}
+
+.container #game-stats {
+  border-style: dashed;
+  border-width: 10px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#press-key {
+  padding: 10px;
+}
